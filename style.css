@@ -72,3 +72,11 @@
   .hide {
     display: none;
   }
+
+.playerO {
+    color:aqua;
+  }
+
+  .playerX {
+    color:red;
+  }
