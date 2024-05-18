@@ -29,10 +29,14 @@ boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turnO) {
       //playerO
+      box.classList.add("playerO");
+      box.classList.remove("playerX");
       box.innerText = "O";
       turnO = false;
     } else {
       //playerX
+      box.classList.add("playerX");
+      box.classList.remove("playerO");
       box.innerText = "X";
       turnO = true;
     }
